@@ -1,0 +1,11 @@
+#Service-registry
+spring.application.name=service-registry
+server.port=8761
+eureka.instance.hostname=localhost
+eureka.client.fetch-registry=false
+eureka.client.register-with-eureka=false
+
+#API GAteway
+spring.application.name=api-gateway
+server.port=8765
+spring.main.allow-bean-definition-overriding=true
