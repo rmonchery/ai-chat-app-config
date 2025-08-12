@@ -1,0 +1,6 @@
+spring.application.name=user-service
+spring.data.mongodb.uri=mongodb://localhost:27017/userdb
+spring.cloud.config.uri=http://localhost:8888
+spring.security.user.name=test
+spring.security.user.password=P@ssword
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
